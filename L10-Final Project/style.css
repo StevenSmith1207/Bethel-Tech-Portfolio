@@ -1,0 +1,152 @@
+.navbar{
+    min-height: 80px;
+    max-height:110px;
+}
+.fullWidthPanel{
+ background-color:slategrey;
+ display: flex;
+}
+#headShot{
+    max-width: 40%;
+    margin:10%
+}
+#govName{
+    color:antiquewhite;
+    font-weight: 500;
+    font-size: 50px;
+    text-align:center;
+    transition: transform 0.3s ease;
+    
+}
+#Description{
+    font-size: 20px;
+    transition: transform 0.3s ease;
+
+    
+}
+.column1{
+    
+}
+.personalInfo{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 3%;
+}
+
+.panel{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+
+@media (min-width: 576px) {
+    .fullWidthPanel {
+        min-height: 350px; 
+    }
+}
+@media (min-width: 768px) {
+    .fullWidthPanel {
+        min-height: 350px; 
+}
+}
+@media (min-width: 992px) {
+    .fullWidthPanel {
+        min-height: 350px; 
+    }
+}
+@media (min-width: 1200px) {
+    .fullWidthPanel {
+        min-height: 350px;
+    }
+}
+.cardTitles{
+    text-align: center;
+    font-family: "Smooch Sans", sans-serif;
+}
+.skillList{
+    border: 0.5px;
+    border-style:groove;
+    text-align:justify;
+}
+.column{
+    flex-basis: 30%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+.column:hover{
+    background-color: #f0f0f0;
+}
+
+.dayAdvice{
+    background-color: lightgray;
+    text-align: center;
+    min-height:125px;
+}
+.advice{
+    text-align: center;
+    padding-top: 15px;
+}
+.containerGit{
+    padding-top: 70px;
+    padding-left: 20px;;
+}
+.button-icon {
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .icon svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .button-icon:hover {
+    border-color: #ff98a2;
+  }
+  
+  .button-icon:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  
+  .top {
+    background: #ff98a2;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  }
+  
+  .front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+  }
+
+.gitLink{
+    text-decoration: none;
+    color: inherit;
+}
